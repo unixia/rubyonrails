@@ -23,3 +23,16 @@ puts "Blast off!"
     # Hash: each, each_key, each_value, each_pair
 # End
 
+fruits = ['banana', 'apple', 'pear']
+fruits.each do |fruit|
+    puts fruit.capitalize
+end
+
+for fruit in fruits
+    puts fruit.capitalize
+end
+
+5.times do |i|
+    puts "Countdown: #{5-i}"
+end
+puts "Blast off!"
